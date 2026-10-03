@@ -1,4 +1,4 @@
-# GapSense
+# untold
 
 **Communication Gap Detector** for group conversations — CEREBRO hackathon, IEM Kolkata.
 
@@ -187,7 +187,7 @@ CV (StratifiedGroupKFold, 5 folds): F1=0.823±0.216  P=0.900  R=0.800
 
 The fitted model lands in `artifacts/gap_classifier.joblib`; gap cards show a
 **confidence badge** (green ≥ 80%, amber ≥ 60%). A ready-to-run **Kaggle notebook**
-(`kaggle_notebook.ipynb` + `gapsense_kaggle.zip`) reproduces the whole training run.
+(`kaggle_notebook.ipynb` + `untold_kaggle.zip`) reproduces the whole training run.
 
 ---
 
@@ -245,7 +245,7 @@ app.py             Streamlit dashboard (5 tabs + live simulation)
 eval.py            P/R/F1 + evidence-integrity harness
 train.py           synthetic gap injection → classifier training
 requirements.txt   runtime dependencies
-kaggle_notebook.ipynb + gapsense_kaggle.zip   reproducible Kaggle run
+kaggle_notebook.ipynb + untold_kaggle.zip   reproducible Kaggle run
 PROJECT.md         full project write-up (source for slides)
 ```
 

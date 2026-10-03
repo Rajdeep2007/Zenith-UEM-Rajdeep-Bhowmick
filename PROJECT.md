@@ -1,4 +1,4 @@
-# GapSense — Detecting Communication Gaps in Group Conversations
+# untold — Detecting Communication Gaps in Group Conversations
 
 **Event:** CEREBRO Hackathon, Dept. of CSE, Institute of Engineering & Management (IEM), Kolkata
 **Problem Statement:** Detecting Communication Gaps in Group Conversations
@@ -211,7 +211,7 @@ Precision=1.000  Recall=1.000  F1=1.000
 
 - Clean meeting: **0 predicted gaps** (no false positives).
 - Evidence integrity: **6/6** — `eval.py` re-checks that every cited message ID exists and every quote is verbatim in the message it cites.
-- ML layer: **grouped 5-fold CV F1 = 0.823 (P = 0.900, R = 0.800)** on synthetic gap injection — reported by `python train.py`; reproducible end-to-end on Kaggle (`kaggle_notebook.ipynb` + `gapsense_kaggle.zip`).
+- ML layer: **grouped 5-fold CV F1 = 0.823 (P = 0.900, R = 0.800)** on synthetic gap injection — reported by `python train.py`; reproducible end-to-end on Kaggle (`kaggle_notebook.ipynb` + `untold_kaggle.zip`).
 
 ---
 
@@ -269,7 +269,7 @@ eval.py           P/R/F1 + evidence-integrity harness
 train.py          synthetic gap injection → classifier training
 requirements.txt  runtime dependencies
 artifacts/        gap_classifier.joblib + train_metrics.json (created by train.py)
-kaggle_notebook.ipynb + gapsense_kaggle.zip   reproducible Kaggle training run
-README.md         usage + full credits
+kaggle_notebook.ipynb + untold_kaggle.zip   reproducible Kaggle training run
+readmezenith.md   usage + full credits
 PROJECT.md        this document (source for the PPT)
 ```
