@@ -1,0 +1,23 @@
+{
+  "title": "Clean Meeting",
+  "description": "Control transcript: every question is answered, every point acknowledged, every topic closed. Expected output: zero gaps.",
+  "transcript": [
+    {"speaker": "Meera", "text": "Let us start sprint planning. What is the team capacity this sprint?"},
+    {"speaker": "Tanvi", "text": "I have twelve story points free after the incident work."},
+    {"speaker": "Vikram", "text": "I can take eight points."},
+    {"speaker": "Nikhil", "text": "Put me down for ten."},
+    {"speaker": "Meera", "text": "Great. Which items go into the sprint first?"},
+    {"speaker": "Tanvi", "text": "The payment retry bug should be first, it blocks customers."},
+    {"speaker": "Vikram", "text": "Agreed, that is the priority."},
+    {"speaker": "Meera", "text": "Do we agree the payment retry bug is the top item?"},
+    {"speaker": "Nikhil", "text": "Yes, agreed."},
+    {"speaker": "Tanvi", "text": "To clarify, does the retry bug include the webhook fix?"},
+    {"speaker": "Vikram", "text": "Yes, the webhook fix is inside the same ticket."},
+    {"speaker": "Meera", "text": "So we are agreed - payment retry and webhook fix are item one. Decision is confirmed."},
+    {"speaker": "Nikhil", "text": "I will take the webhook fix if nobody else wants it."},
+    {"speaker": "Meera", "text": "Perfect, thanks Nikhil."},
+    {"speaker": "Vikram", "text": "Anything else before we close?"},
+    {"speaker": "Meera", "text": "That is all from me. To conclude, we are done."},
+    {"speaker": "Tanvi", "text": "Closing the meeting then."}
+  ]
+}

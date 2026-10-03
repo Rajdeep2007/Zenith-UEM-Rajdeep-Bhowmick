@@ -1,0 +1,22 @@
+{
+  "title": "Design Review",
+  "description": "Design review where the navigation debate never reaches a decision and a question about the palette goes unanswered.",
+  "transcript": [
+    {"speaker": "Priya", "text": "Thanks for joining the design review. First item is the new navigation."},
+    {"speaker": "Rahul", "text": "I prototyped the left sidebar with six sections."},
+    {"speaker": "Sneha", "text": "Six feels heavy for mobile. I would cut it to four."},
+    {"speaker": "Rahul", "text": "If we cut sections we lose direct access to billing."},
+    {"speaker": "Priya", "text": "The billing entry point matters for the dashboard redesign."},
+    {"speaker": "Sneha", "text": "Then we need a decision on whether billing stays in the sidebar or moves to the profile menu."},
+    {"speaker": "Rahul", "text": "I can build both variants by Thursday if that helps."},
+    {"speaker": "Priya", "text": "Let's revisit after lunch, next topic is the color system."},
+    {"speaker": "Sneha", "text": "The current blue fails contrast on white backgrounds."},
+    {"speaker": "Arjun", "text": "I ran the accessibility audit and the ratio is 3.1 to 1."},
+    {"speaker": "Sneha", "text": "WCAG requires 4.5 to 1 for body text, so we are failing."},
+    {"speaker": "Priya", "text": "Can anyone tell me who approved the current palette?"},
+    {"speaker": "Rahul", "text": "Anyway, moving on to the spacing scale."},
+    {"speaker": "Sneha", "text": "The 8 point grid works fine so far."},
+    {"speaker": "Priya", "text": "Hello? Nobody knows who approved the palette?"},
+    {"speaker": "Rahul", "text": "We can ask the brand team offline."}
+  ]
+}

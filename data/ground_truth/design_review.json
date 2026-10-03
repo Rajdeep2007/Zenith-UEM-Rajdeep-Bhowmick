@@ -1,0 +1,7 @@
+{
+  "title": "Design Review",
+  "gaps": [
+    {"type": "unresolved_topic", "turns": [1, 5], "note": "Sidebar vs billing navigation debated, no decision taken"},
+    {"type": "unanswered_question", "turns": [11, 14], "note": "Who approved the palette - asked twice, never answered"}
+  ]
+}

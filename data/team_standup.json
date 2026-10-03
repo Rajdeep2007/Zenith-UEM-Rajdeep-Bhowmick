@@ -1,0 +1,25 @@
+{
+  "title": "Team Standup",
+  "description": "Daily standup that silently derails: a question nobody answers, a point nobody acknowledges, and a question asked twice.",
+  "transcript": [
+    {"speaker": "Alice", "text": "Morning everyone, quick standup. What did each of you finish yesterday?"},
+    {"speaker": "Bob", "text": "I finished the payment API integration."},
+    {"speaker": "Carol", "text": "I wrapped up the onboarding screens."},
+    {"speaker": "Dave", "text": "Mostly bug fixes on the mobile app."},
+    {"speaker": "Alice", "text": "Dave, good - do you know if the staging environment is back up?"},
+    {"speaker": "Bob", "text": "I pushed the API docs to Confluence yesterday."},
+    {"speaker": "Carol", "text": "My pull request is still waiting on review."},
+    {"speaker": "Alice", "text": "Hello? Is staging up? Anyone?"},
+    {"speaker": "Bob", "text": "Sorry, jumping topics - what is the release date again?"},
+    {"speaker": "Dave", "text": "I thought it was the 15th, but I am not sure."},
+    {"speaker": "Carol", "text": "To clarify, does the release include the admin dashboard?"},
+    {"speaker": "Dave", "text": "No, that is phase two."},
+    {"speaker": "Carol", "text": "Can you clarify which parts of the admin dashboard are in scope?"},
+    {"speaker": "Alice", "text": "Does anyone know why the coupon tests are failing?"},
+    {"speaker": "Bob", "text": "It is because the test data expired last week."},
+    {"speaker": "Alice", "text": "@Bob the login bug is still open."},
+    {"speaker": "Alice", "text": "I will pick that up myself."},
+    {"speaker": "Alice", "text": "Also the designer handed over the new icons."},
+    {"speaker": "Carol", "text": "Nice, I will review them tomorrow."}
+  ]
+}

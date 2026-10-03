@@ -1,0 +1,9 @@
+{
+  "title": "Team Standup",
+  "gaps": [
+    {"type": "unanswered_question", "turns": [4, 7], "note": "Staging question asked twice, never answered"},
+    {"type": "repeated_clarification", "turns": [10, 12], "note": "Admin dashboard scope clarified twice, never resolved"},
+    {"type": "ignored_response", "turns": [9], "note": "Dave's release date answer is never acknowledged"},
+    {"type": "ignored_response", "turns": [14], "note": "Bob's answer about coupon tests gets no acknowledgement"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "n_pos": 24,
+  "n_neg": 74,
+  "n_groups": 24,
+  "cv_folds": 5,
+  "cv_f1_mean": 0.8234,
+  "cv_f1_std": 0.2165,
+  "cv_precision": 0.9,
+  "cv_recall": 0.8,
+  "vocab_size": 636
+}
